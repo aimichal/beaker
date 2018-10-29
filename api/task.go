@@ -22,6 +22,7 @@ type Task struct {
 
 	// Results
 	ResultID string `json:"result_id"`
+	ExitCode int		`json:"exit_code,omitempty"`
 }
 
 type TaskLogUploadLink struct {
